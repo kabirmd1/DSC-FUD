@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register_page</title>
+
+	<style type="text/css">
+
+		body {
+
+    background:url(champion.jpg);
+
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+			}
+			
+		form{
+
+			border: solid;
+
+			border-color: blue;
+
+			border-radius: 2px;
+
+			position: center;
+
+			height: 450px;
+			width: 350px;
+
+			align-content: center;
+
+			border-radius: 20px;
+			background: white;
+			
+		}
+
+		#submit{
+			color: white;
+			background: blue;
+			border-radius: 50px;
+
+		}
+
+		
+	
+	</style>
+</head>
+
+
+
+<body>
+	
+
+<center>
+<form action="conn.php" method="POST">
+
+
+	<table>
+		<p>
+<tr>
+	<td>
+	first_name:
+		<input type="text" name="first_name" placeholder="first_name" required> 
+	</td>
+</tr>
+			<p>
+<tr>
+	<td>
+	last_name:	
+	<input type="text" name="last_name" placeholder="last_name" required> 
+	</td>
+</tr>
+
+			<p>
+<tr>
+	<td>
+	gmail:	
+	<input type="text" name="gmail" placeholder="gmail" required> <br><br>
+	</td>
+</tr>
+			<p>
+<tr>
+	<td>
+	phone_Number:	
+	<input type="text" name="phone_Number" placeholder="phone_Number" required>
+	</td>
+</tr>
+	 		<p>
+
+<tr>
+	 <td>
+	<input id="submit" type="submit" name="submit">
+	</td>
+</tr>
+
+	
+	</table>
+</form>	
+
+</center>
+</body>
+</html>
